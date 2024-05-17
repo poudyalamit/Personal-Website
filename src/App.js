@@ -16,7 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Blogs from "./components/Blogs/Blogs";
+// import Blogs from "./components/Blogs/Blogs";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -40,7 +40,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/blogs" element={''} />
+          {/* <Route path="/blogs" element={''} /> */}
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

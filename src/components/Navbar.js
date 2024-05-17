@@ -94,8 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/blogs"
+                href=''
                 target="_blank"
                 rel="noreferrer"
               >
